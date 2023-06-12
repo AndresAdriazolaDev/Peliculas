@@ -4,9 +4,10 @@ import { MovieDetails } from "../pages/MovieDetails";
 export function Rutas() {
   return (
     <Router>
-        <Routes>
-            <Route exact path="/" element={<LandingPage/>}/>
-        </Routes>
+      <Routes>
+        <Route exact path="/" element={<LandingPage />} />
+        <Route exact path="/movie/:movieId" element={<MovieDetails />} />
+      </Routes>
     </Router>
-  )
+  );
 }

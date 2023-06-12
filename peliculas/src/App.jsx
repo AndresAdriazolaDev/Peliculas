@@ -5,7 +5,7 @@ function App() {
   return (
     <div>
       <header>
-      <h1 className='title'>Películas</h1>
+      <a href="/" className='header' >New Movies</a>
     </header>
     <Rutas/>
     </div>

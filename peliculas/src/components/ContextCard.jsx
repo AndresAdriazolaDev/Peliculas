@@ -1,7 +1,9 @@
 import { useEffect, useState } from "react";
 import { get } from "../data/httpsClient";
 import { Card } from "./Card";
-import "./ContextCard.css"
+import "../styles/ContextCard.css";
+import "../styles/Footer.css";
+
 
 export function ContextCard() {
   const [movies, setMovies] = useState([]);
@@ -16,6 +18,11 @@ export function ContextCard() {
       {movies.map((movie) => (
         <Card key={movie.id} movie={movie} />
       ))}
+          <footer className="footer">
+      <h4>Dev .<span> - Andrés Adriazola</span></h4>
+      <h5>Recent Movies</h5>
+    </footer>
     </ul>
+    
   );
 }

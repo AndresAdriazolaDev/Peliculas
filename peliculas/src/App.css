@@ -1,6 +1,10 @@
-.title{
-  margin-top: 20px;
-  text-align: center;
+.header{
+  padding-left: 600px;
   font-size: 3rem;
-  color: #9F91FE;
+  color: #fff;
+  text-decoration:none;
+}
+.header:hover{
+  color: red;
+  cursor: grab;
 }
