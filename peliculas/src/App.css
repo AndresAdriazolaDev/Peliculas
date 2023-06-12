@@ -1,10 +1,13 @@
-.header{
-  padding-left: 600px;
-  font-size: 3rem;
-  color: #fff;
+header{
+  text-align: center;
+  font-size: 4rem;
+
+}
+header a{
+  color: bisque;
   text-decoration:none;
 }
-.header:hover{
+header a:hover{
   color: red;
-  cursor: grab;
+  text-decoration:none;
 }

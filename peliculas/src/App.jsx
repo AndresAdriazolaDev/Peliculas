@@ -3,9 +3,9 @@ import './App.css'
 
 function App() {
   return (
-    <div>
+    <div> 
       <header>
-      <a href="/" className='header' >New Movies</a>
+      <a href="/">New Movies</a>
     </header>
     <Rutas/>
     </div>
